@@ -1,0 +1,125 @@
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  @font-face {
+    font-family: 'MADEEvolveSans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+      url('~assets/fonts/MADEEvolveSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('~assets/fonts/MADEEvolveSans.woff2') format('woff2'), /* Super Modern Browsers */
+      url('~assets/fonts/MADEEvolveSans.woff') format('woff'), /* Pretty Modern Browsers */
+      url('~assets/fonts/MADEEvolveSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('~assets/fonts/MADEEvolveSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+  @font-face {
+    font-family: 'MADEEvolveSansEVO';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src:
+      url('~assets/fonts/MADEEvolveSansEVO-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('~assets/fonts/MADEEvolveSansEVO-Light.woff2') format('woff2'), /* Super Modern Browsers */
+      url('~assets/fonts/MADEEvolveSansEVO-Light.woff') format('woff'), /* Pretty Modern Browsers */
+      url('~assets/fonts/MADEEvolveSansEVO-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('~assets/fonts/MADEEvolveSansEVO-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+  h1 {
+    @apply text-5xl sm:text-7xl font-body text-gray-900 dark:text-gray-200;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl font-body text-gray-900 dark:text-gray-200;
+  }
+
+  h3 {
+    @apply text-xl font-body text-gray-900 dark:text-gray-200;
+  }
+
+  h4 {
+    @apply text-sm font-body text-gray-900 dark:text-gray-200;
+  }
+
+  p {
+    @apply text-base font-body text-gray-900 dark:text-gray-200;
+  }
+
+  button {
+    @apply text-sm font-body text-gray-900 dark:text-gray-200 my-3 p-3 bg-gradient-to-r from-magenta to-magentadark rounded;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
+}
+
+@layer utilities {
+  .hide {
+    visibility: hidden !important;
+  }
+
+  .perspective {
+    perspective: 1px;
+  }
+
+  .transform-origin-x-full {
+    -webkit-transform-origin-x: 100%;
+    transform-origin-x: 100%;
+  }
+
+  .bg-position-3d-1 {
+    --tw-translate-x: -128px;
+    --tw-translate-z: -0.5px;
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+
+    z-index: -50;
+  }
+
+  .bg-position-3d-2 {
+    --tw-translate-x: -128px;
+    --tw-translate-z: -1px;
+    --tw-scale-x: 2;
+    --tw-scale-y: 2;
+
+    z-index: -50;
+  }
+
+  .translate-z-0 {
+    --tw-translate-z: 0;
+  }
+
+  .scroll-snap-none {
+    scroll-snap-type: none;
+  }
+
+  .scroll-snap-x {
+    scroll-snap-type: x;
+  }
+
+  .scroll-snap-y {
+    scroll-snap-type: y;
+  }
+
+  .transform-preserve-3d {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .my-screen {
+    margin-top: 32vh;
+    margin-bottom: 32vh;
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

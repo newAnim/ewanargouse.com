@@ -18,7 +18,7 @@ module.exports = {
       'nuxt.config.ts',
     ],
   },
-  darkMode: 'media',
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: (theme) => ({

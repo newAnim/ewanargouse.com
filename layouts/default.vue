@@ -21,3 +21,7 @@
     </div>
   </div>
 </template>
+
+<script>
+document.querySelector('html').classList.add('dark')
+</script>

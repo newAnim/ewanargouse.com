@@ -32,7 +32,7 @@
           <h3><NuxtLink to="/works">ᐅ View more</NuxtLink></h3>
         </button>
       </div>
-      <div class="my-screen mx-2">
+      <div class="my-screen mx-2 text-right">
         <h1 class="font-body text-5xl sm:text-7xl text">
           Something
           <span class="text-gradient bg-gradient-to-r from-cyan to-cyandark">
@@ -43,20 +43,20 @@
         <masonry :cols="{ default: 3, 600: 1 }" :gutter="20">
           <card
             title="Gameplay"
-            description="Game feel is core to the fun, and making sure everything is
-              scalable is essential into getting a fun game."
+            description="Game feel is core to the fun, making sure that the controls
+              feels right for the player is essential into making a fun game."
             :img="require('~/assets/svg/gamepad.svg')"
           ></card>
           <card
             title="System"
-            description="Understanding system allow to avoid design problems that might
-              result in making terrible script."
+            description="Understanding systems allow to avoid programming and design
+              problems that might result in making unscalable scripts."
             :img="require('~/assets/svg/loop.svg')"
           ></card>
           <card
             title="UX"
-            description="Making the user the top priority ensure that scripts are modular
-              to give the best user experience possible."
+            description="Making user the top priority ensure that scripts are modular
+              enough to iterate a lot and give the best user experience possible."
             :img="require('~/assets/svg/user.svg')"
           ></card>
         </masonry>

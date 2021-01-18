@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@animxyz/core@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@animxyz/core/-/core-0.3.0.tgz#3f4a7c5e3e5bacb935820c155a8b7c7bfa0027af"
-  integrity sha512-U5rvWyfHMSTvLxYu/GFwJMFTeV0TifY4IvVGYH0oEb2Gcs+f+hS0hh5HIDCFu/yOdeJ5Y1IL1MCskUIq3xIdPg==
-
 "@animxyz/core@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@animxyz/core/-/core-0.4.0.tgz#d1be459cf9c265e1525523b252e2ea6e3a974412"

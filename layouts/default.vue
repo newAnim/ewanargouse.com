@@ -7,7 +7,7 @@
       class="transform-preserve-3d perspective overflow-x-hidden overflow-y-auto h-screen"
     >
       <div
-        class="absolute inset-0 w-10 h-10 transform-3d bg-position-3d-1 transform-origin-x-full"
+        class="absolute inset-0 w-10 h-10 top-40 left-56 bg-position-3d-1 transform-origin-x-full"
       >
         <img src="~assets/svg/bg-item-1.svg" />
       </div>

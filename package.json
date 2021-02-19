@@ -16,7 +16,7 @@
     "@animxyz/vue": "^0.4.1",
     "@nuxt/content": "^1.12.0",
     "@nuxtjs/color-mode": "^2.0.3",
-    "core-js": "^3.8.3",
+    "core-js": "^3.9.0",
     "fibers": "^5.0.0",
     "nuxt": "^2.14.6",
     "tailwindcss-filters": "^3.0.0",

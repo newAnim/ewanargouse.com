@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@animxyz/core@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@animxyz/core/-/core-0.4.0.tgz#d1be459cf9c265e1525523b252e2ea6e3a974412"
-  integrity sha512-Q4B5y/T+hjutRMmpMjXS+t5UkAapUZdFxfYEMY/IEGlLLEl/23pO8Z+bmQdB425zRDJYptlXrP04JAz3X8axEQ==
-
 "@animxyz/core@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@animxyz/core/-/core-0.5.0.tgz#b7b0da9ab083f67a2927650e37452b0d7d7ef317"
@@ -8450,10 +8445,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier-plugin-tailwind@^2.2.8:
-  version "2.2.8"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwind/-/prettier-plugin-tailwind-2.2.8.tgz#6e25544a9ca94f671a1befc0133992a6f7f8f7ad"
-  integrity sha512-0ViHn1LnRrPj09FXa1bbZF49ybctmDfnZjPI3Iy9jIL3+ZpD/TnbSgAy18xmy8SYw1EsAq5kyOXmOghc8+WipQ==
+prettier-plugin-tailwind@^2.2.9:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwind/-/prettier-plugin-tailwind-2.2.9.tgz#c1c00e6cd6b69a9d50a5037cb2b284ba22526e90"
+  integrity sha512-qcAX2RMkx9EgwN1UBaj7E3LTHM38wba6ZqQ014+2aP2DbcXHuRKkwBY/wziv4gT5t7crpxjTfamCw3NToKFoNg==
   dependencies:
     prettier "^2.1.2"
     tailwind-classes-sorter "^0.2.5"

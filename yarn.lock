@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@animxyz/core@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@animxyz/core/-/core-0.4.0.tgz#d1be459cf9c265e1525523b252e2ea6e3a974412"
-  integrity sha512-Q4B5y/T+hjutRMmpMjXS+t5UkAapUZdFxfYEMY/IEGlLLEl/23pO8Z+bmQdB425zRDJYptlXrP04JAz3X8axEQ==
-
 "@animxyz/core@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@animxyz/core/-/core-0.5.0.tgz#b7b0da9ab083f67a2927650e37452b0d7d7ef317"
@@ -3143,10 +3138,10 @@ color@^3.0.0, color@^3.1.2, color@^3.1.3:
     color-convert "^1.9.1"
     color-string "^1.5.4"
 
-colorette@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
-  integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
+colorette@^1.2.1, colorette@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
+  integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
 
 comma-separated-tokens@^1.0.0:
   version "1.0.8"
@@ -8425,11 +8420,11 @@ postcss@^6.0.9:
     supports-color "^5.4.0"
 
 postcss@^8, postcss@^8.2.1:
-  version "8.2.6"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.6.tgz#5d69a974543b45f87e464bc4c3e392a97d6be9fe"
-  integrity sha512-xpB8qYxgPuly166AGlpRjUdEYtmOWx2iCwGmrv4vqZL9YPVviDVPZPRXxnXr6xPZOdxQ9lp3ZBFCRgWJ7LE3Sg==
+  version "8.2.7"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.7.tgz#48ed8d88b4de10afa0dfd1c3f840aa57b55c4d47"
+  integrity sha512-DsVLH3xJzut+VT+rYr0mtvOtpTjSyqDwPf5EZWXcb0uAKfitGpTY9Ec+afi2+TgdN8rWS9Cs88UDYehKo/RvOw==
   dependencies:
-    colorette "^1.2.1"
+    colorette "^1.2.2"
     nanoid "^3.1.20"
     source-map "^0.6.1"
 

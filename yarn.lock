@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@animxyz/core@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@animxyz/core/-/core-0.4.0.tgz#d1be459cf9c265e1525523b252e2ea6e3a974412"
-  integrity sha512-Q4B5y/T+hjutRMmpMjXS+t5UkAapUZdFxfYEMY/IEGlLLEl/23pO8Z+bmQdB425zRDJYptlXrP04JAz3X8axEQ==
-
 "@animxyz/core@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@animxyz/core/-/core-0.5.0.tgz#b7b0da9ab083f67a2927650e37452b0d7d7ef317"
@@ -1327,10 +1322,10 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/color-mode@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-2.0.3.tgz#6ba5ab0a6364c966b48386867f2660bf0dcd7b5d"
-  integrity sha512-yfTkUbXcq42YW7qCv66kqAttnjr+sLpxY+HIJq7nlLadDQeEyjl+QMR8AHKS2KQMVfMwd7rbJyE+jU2PKjwDcQ==
+"@nuxtjs/color-mode@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-2.0.4.tgz#7a2e62d459570f0c210dd6c0d296f31925eab346"
+  integrity sha512-wYoIwbNNFGtfD0oFo5P/tlnnir6NjYcbn+oG66XI3BJhfLFnFxG+rpFuVnIP3qpY2j0IAfq4CfgfdPeCRe/OLA==
   dependencies:
     defu "^3.2.2"
     lodash.template "^4.5.0"

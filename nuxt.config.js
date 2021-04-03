@@ -71,7 +71,7 @@ export default {
     'nuxt-purgecss',
   ],
   tailwindcss: {
-    // Options
+    jit: true,
   },
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},

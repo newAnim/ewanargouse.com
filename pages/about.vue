@@ -1,17 +1,16 @@
 <template>
   <div class="mx-auto max-w-4xl relative text-left my-screen sm:pr-72">
     <h1 class="font-body text-5xl sm:text-7xl text my-10 mx-2">
-      I like
+      I like making
       <span class="text-gradient bg-gradient-to-r from-cyan to-cyandark">
-        making
+        creative
       </span>
       games
     </h1>
     <p class="mx-2">
-      I'm a passionate game developer, specializing in programming. I'm doing my
-      best to be versatile in every field of game development to be able to
-      produce more specific experiences, effectively prototype and communicate
-      easily with my co-workers.
+      I'm a passionate game developer, specializing in game programming and design. 
+      I like to develop my versatility, to improve my ability to communicate within a team and
+      solving unique problems that comes with creating novel game experiences.
     </p>
     <button class="mx-2">
       <a href="/docs/Ewan Argouse Resume.pdf" target="_blank">View resume</a>
@@ -34,7 +33,7 @@
           />
         </svg>
       </a>
-      <a class="m-4" href="https://twitter.com/ewargous" target="_blank">
+      <a class="m-4" href="https://twitter.com/_newAnim" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

@@ -6,7 +6,7 @@
         <div v-for="game in top_games" :key="game.slug">
           <game
             :title="game.title"
-            :description="game.description"
+            :description="game.detail_description"
             :img="game.img"
             :download-link="game.downloadLink"
             :download-img="game.downloadImg"
@@ -17,7 +17,7 @@
         <div v-for="game in games" :key="game.slug">
           <game
             :title="game.title"
-            :description="game.description"
+            :description="game.detail_description"
             :img="game.img"
             :download-link="game.downloadLink"
             :download-img="game.downloadImg"

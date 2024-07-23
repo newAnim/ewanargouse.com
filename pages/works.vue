@@ -8,6 +8,8 @@
             :title="game.title"
             :description="game.description"
             :img="game.img"
+            :download-link="game.downloadLink"
+            :download-img="game.downloadImg"
           ></game>
         </div>
       </masonry>

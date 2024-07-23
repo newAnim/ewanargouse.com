@@ -16,6 +16,9 @@
         >
           <h2>{{ title }}</h2>
           <p>{{ description }}</p>
+          <a :href="downloadLink" target="_blank"
+            ><img class="p-4" :src="downloadImg"
+          /></a>
         </div>
       </div>
     </div>
@@ -25,7 +28,7 @@
 <script>
 export default {
   // eslint-disable-next-line vue/require-prop-types
-  props: ['title', 'description', 'img'],
+  props: ['title', 'description', 'img', 'downloadLink', 'downloadImg'],
   data() {
     return {
       show: true,

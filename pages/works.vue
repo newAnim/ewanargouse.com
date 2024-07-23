@@ -1,22 +1,24 @@
 <template>
   <div>
+    <br /><br /><br /><br />
     <div class="max-w-4xl mx-auto">
-      <div class="relative">
-        <div class="mx-2 text-left my-24">
-          <h1 class="font-body text-5xl sm:text-7xl text">
-            Here's some of my
-            <span class="text-gradient bg-gradient-to-r from-cyan to-cyandark">
-              work
-            </span>
-          </h1>
+      <masonry :cols="{ default: 1, 600: 1 }" :gutter="10">
+        <div v-for="game in top_games" :key="game.slug">
+          <game
+            :title="game.title"
+            :description="game.description"
+            :img="game.img"
+          ></game>
         </div>
-      </div>
+      </masonry>
       <masonry :cols="{ default: 2, 600: 1 }" :gutter="10">
         <div v-for="game in games" :key="game.slug">
           <game
             :title="game.title"
             :description="game.description"
             :img="game.img"
+            :download-link="game.downloadLink"
+            :download-img="game.downloadImg"
           ></game>
         </div>
       </masonry>
@@ -38,17 +40,26 @@ export default {
       page: 0,
       limit: 4,
       games: [],
+      top_games: [],
     }
   },
   async fetch() {
+    this.top_games = await this.fetchTopData()
     this.games = await this.fetchData()
   },
   methods: {
     fetchData() {
       return this.$content('games')
+        .where({ top: false })
         .limit(this.limit)
         .skip(this.limit * this.page)
-        .sortBy('createdAt', 'desc')
+        .sortBy('order', 'desc')
+        .fetch()
+    },
+    fetchTopData() {
+      return this.$content('games')
+        .where({ top: true })
+        .sortBy('order', 'desc')
         .fetch()
     },
     infiniteHandler($state) {

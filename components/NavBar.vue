@@ -80,7 +80,7 @@
             <div class="flex space-x-6">
               <NuxtLink to="/works" class="hover:text-white p-4">
                 <span v-if="$nuxt.$route.path === '/works'">ᐅ</span>
-                Works
+                Games
               </NuxtLink>
               <NuxtLink to="/about" class="hover:text-white p-4">
                 <span v-if="$nuxt.$route.path === '/about'">ᐅ</span>
@@ -106,7 +106,7 @@
     >
       <NuxtLink to="/works" class="hover:text-white p-2">
         <span v-if="$nuxt.$route.path === '/works'">ᐅ</span>
-        Works
+        Games
       </NuxtLink>
       <NuxtLink to="/about" class="hover:text-white p-2">
         <span v-if="$nuxt.$route.path === '/about'">ᐅ</span>

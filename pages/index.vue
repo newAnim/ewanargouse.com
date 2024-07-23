@@ -13,10 +13,11 @@
       </div>
       <div class="my-screen sm:my-24 mx-2 text-right">
         <h1 class="font-body text-5xl sm:text-7xl text">
-          Some of my
-          <span class="text-gradient bg-gradient-to-r from-cyan to-cyandark">
-            work
-          </span>
+          What I
+          <span class="text-gradient bg-gradient-to-r from-cyan to-cyandark"
+            >worked</span
+          >
+          on
         </h1>
         <masonry :cols="{ default: 3, 600: 1 }" :gutter="20">
           <div v-for="game in games" :key="game.slug">
@@ -36,27 +37,27 @@
         <h1 class="font-body text-5xl sm:text-7xl text">
           Something
           <span class="text-gradient bg-gradient-to-r from-cyan to-cyandark">
-            About
+            about
           </span>
           me
         </h1>
         <masonry :cols="{ default: 3, 600: 1 }" :gutter="20">
           <card
             title="Gameplay"
-            description="Game feel is core to the fun, making sure that the controls
-              feels right for the player is essential into making a fun game."
+            description="Striking balance between appealing creativity and 
+            meaningful choices is essential for memorable and pleasant game experiences."
             :img="require('~/assets/svg/gamepad.svg')"
           ></card>
           <card
-            title="System"
-            description="Understanding systems allow to avoid programming and design
-              problems that might result in making unscalable scripts."
+            title="Systems"
+            description="I believe in simple game systems that help to 
+            create tools which empower the entire team."
             :img="require('~/assets/svg/loop.svg')"
           ></card>
           <card
             title="UX"
-            description="Making user the top priority ensure that scripts are modular
-              enough to iterate a lot and give the best user experience possible."
+            description="User experience for players and developers 
+            is top priority for me."
             :img="require('~/assets/svg/user.svg')"
           ></card>
         </masonry>
@@ -65,7 +66,7 @@
         </button>
       </div>
       <div class="my-screen mx-2 text-center">
-        <h2>Let's get in touch !</h2>
+        <h2>Let's get in touch!</h2>
         <div class="py-4">
           <button>
             <h3><NuxtLink to="/contact">ᐅ Contact</NuxtLink></h3>
@@ -93,7 +94,7 @@ export default {
         .skip(this.limit * this.page)
         .where({ featured: true })
         .limit(3)
-        .sortBy('createdAt', 'desc')
+        .sortBy('order', 'desc')
         .fetch()
     },
   },
